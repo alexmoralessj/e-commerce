@@ -26,26 +26,33 @@
                 </ul>
             </nav>
             <div>
-                <ul>
-                    <li class="submenu">
-                        <img src="public/img/shopping-cart_3916624.png" height="20" id="img_carrito" alt="carrito">
-                        <div id="carrito">
-                            <table id="lista-carrito">
-                                <thead>
-                                    <tr>
-                                        <th>Imagen</th>
-                                        <th>nombre</th>
-                                        <th>Precio</th>
-                                        <th></th>
-                                    </tr>
-                                </thead>
-                                <tbody></tbody>
-                            </table>
-                            <a href="a" id="vaciar-carrito" class="btn-2">Vaciar Carrito</a>
-                        </div>
-                    </li>
-                </ul>
+    <ul>
+        <li class="submenu">
+            <img src="public/img/shopping-cart_3916624.png" height="20" id="img_carrito" alt="carrito">
+            <div id="carrito">
+                <table id="lista-carrito">
+                    <thead>
+                        <tr>
+                            <th>Imagen</th>
+                            <th>nombre</th>
+                            <th>Precio</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+
+                <!-- Total y botones -->
+                <div style="margin-top:12px; text-align:center;">
+                    <p id="total-carrito">Total: $0</p>
+                    <!-- Botón de pago simulado -->
+                    <button id="btn-pagar" class="btn-1">Pagar con Mercado Pago (simulado)</button>
+                    <a href="#" id="vaciar-carrito" class="btn-2">Vaciar Carrito</a>
+                </div>
             </div>
+        </li>
+    </ul>
+</div>
         </div>
         <div class="header-content container">
             <div class="header-img">
@@ -256,4 +263,5 @@
 
     <script src="public/scrip/scrio.js"></script>
 </body>
+
 </html>
