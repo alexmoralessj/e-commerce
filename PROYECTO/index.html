@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>VEKKO</title>
     <link rel="stylesheet" href="public/css/style.css">
 </head>
 <body>
@@ -11,7 +11,7 @@
     <header class="header">
 
         <div class="menu container"> 
-            <a href="#" class="logo">logo</a>
+            <a href="index.html" class="logo">VEKKO</a>
             <input type="checkbox" id="menu" />
             <label for="menu">
                 <img src="public/img/menu.png" class="menu-icono" alt="menu">
@@ -19,40 +19,40 @@
             <!--NAVBAR-->
             <nav class="navbar">
                 <ul>
-                    <li><a href="#">Inicio</a></li>
-                    <li><a href="#">Servicio</a></li>
-                    <li><a href="#">Producto</a></li>
-                    <li><a href="#">Contacto</a></li>                   
+                    <li><a href="index.html" class="active">Inicio</a></li>
+                    <li><a href="servicio.html">Servicio</a></li>
+                    <li><a href="producto.html">Producto</a></li>
+                    <li><a href="contactos.html">Contacto</a></li>                   
                 </ul>
             </nav>
             <div>
-    <ul>
-        <li class="submenu">
-            <img src="public/img/shopping-cart_3916624.png" height="20" id="img_carrito" alt="carrito">
-            <div id="carrito">
-                <table id="lista-carrito">
-                    <thead>
-                        <tr>
-                            <th>Imagen</th>
-                            <th>nombre</th>
-                            <th>Precio</th>
-                            <th></th>
-                        </tr>
-                    </thead>
-                    <tbody></tbody>
-                </table>
+                <ul>
+                    <li class="submenu">
+                        <img src="public/img/shopping-cart_3916624.png" height="20" id="img_carrito" alt="carrito">
+                        <div id="carrito">
+                            <table id="lista-carrito">
+                                <thead>
+                                    <tr>
+                                        <th>Imagen</th>
+                                        <th>Nombre</th>
+                                        <th>Precio</th>
+                                        <th></th>
+                                    </tr>
+                                </thead>
+                                <tbody></tbody>
+                            </table>
 
-                <!-- Total y botones -->
-                <div style="margin-top:12px; text-align:center;">
-                    <p id="total-carrito">Total: $0</p>
-                    <!-- Botón de pago simulado -->
-                    <button id="btn-pagar" class="btn-1">Pagar con Mercado Pago (simulado)</button>
-                    <a href="#" id="vaciar-carrito" class="btn-2">Vaciar Carrito</a>
-                </div>
+                            <!-- Total y botones -->
+                            <div style="margin-top:12px; text-align:center;">
+                                <p id="total-carrito">Total: $0</p>
+                                <!-- Botón de pago simulado -->
+                                <button id="btn-pagar" class="btn-1">Pagar con Mercado Pago (simulado)</button>
+                                <a href="#" id="vaciar-carrito" class="btn-2">Vaciar Carrito</a>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
             </div>
-        </li>
-    </ul>
-</div>
         </div>
         <div class="header-content container">
             <div class="header-img">
@@ -60,53 +60,52 @@
             </div>
             <div class="header-txt">
                 <h1>Ofertas especiales</h1>
-                <p>estrena las mejores prendas</p>
-                <a href="#" class="btn-1">información</a>
+                <p>Estrena las mejores prendas</p>
+                <a href="promociones.html" class="btn-1">Ver promociones</a>
             </div>
         </div>
     </header>
 
+    <!--SECCIÓN DE OFERTAS-->
     <section class="ofert container">
         <div class="ofert-1">
             <div class="ofert-img">
                 <img src="public/img/traje-hombre-3.avif" alt="">
-                </div>
             </div>
             <div class="ofert-txt">
                 <h3>Producto 1</h3>
-                <a href="#" class="btn-2">Información</a>
+                <a href="producto.html" class="btn-2">Información</a>
             </div>
         </div>
-        <div class="oferta-1">
+        <div class="ofert-1">
             <div class="ofert-img">
                 <img src="public/img/v1.webp" alt="">
-                </div>
             </div>
             <div class="ofert-txt">
                 <h3>Producto 2</h3>
-                <a href="#" class="btn-2">Información</a>
+                <a href="producto.html" class="btn-2">Información</a>
             </div>
         </div>
         <div class="ofert-1">
             <div class="ofert-img">
                 <img src="public/img/f3.png" alt="">
-                </div>
             </div>
             <div class="ofert-txt">
                 <h3>Producto 3</h3>
-                <a href="#" class="btn-2">Información</a>
+                <a href="producto.html" class="btn-2">Información</a>
             </div>
         </div>
     </section>
+
     <!--PARTE PRINCIPAL-->
     <main class="products container" id="lista-1">
-        <h2>producto</h2>
+        <h2>Productos destacados</h2>
         <div class="product-content">
             <div class="product">
                 <img src="public/img/1.png" alt="">
                 <div class="produt-txt">
                     <h3>Elisyum</h3>
-                    <p>calidad premiun</p>
+                    <p>Calidad premium</p>
                     <p class="precio">$200</p>
                     <a href="#" class="agregar-carrito btn-2" data-id="1">Agregar al carrito</a>
                 </div>
@@ -115,7 +114,7 @@
                 <img src="public/img/2.png" alt="">
                 <div class="produt-txt">
                     <h3>Elisyum</h3>
-                    <p>calidad premiun</p>
+                    <p>Calidad premium</p>
                     <p class="precio">$200</p>
                     <a href="#" class="agregar-carrito btn-2" data-id="2">Agregar al carrito</a>
                 </div>
@@ -124,7 +123,7 @@
                 <img src="public/img/3.png" alt="">
                 <div class="produt-txt">
                     <h3>Elisyum</h3>
-                    <p>calidad premiun</p>
+                    <p>Calidad premium</p>
                     <p class="precio">$200</p>
                     <a href="#" class="agregar-carrito btn-2" data-id="3">Agregar al carrito</a>
                 </div>
@@ -133,7 +132,7 @@
                 <img src="public/img/4.png" alt="">
                 <div class="produt-txt">
                     <h3>Elisyum</h3>
-                    <p>calidad premiun</p>
+                    <p>Calidad premium</p>
                     <p class="precio">$200</p>
                     <a href="#" class="agregar-carrito btn-2" data-id="4">Agregar al carrito</a>
                 </div>
@@ -142,7 +141,7 @@
                 <img src="public/img/5.png" alt="">
                 <div class="produt-txt">
                     <h3>Elisyum</h3>
-                    <p>calidad premiun</p>
+                    <p>Calidad premium</p>
                     <p class="precio">$200</p>
                     <a href="#" class="agregar-carrito btn-2" data-id="5">Agregar al carrito</a>
                 </div>
@@ -151,7 +150,7 @@
                 <img src="public/img/6.png" alt="">
                 <div class="produt-txt">
                     <h3>Elisyum</h3>
-                    <p>calidad premiun</p>
+                    <p>Calidad premium</p>
                     <p class="precio">$200</p>
                     <a href="#" class="agregar-carrito btn-2" data-id="6">Agregar al carrito</a>
                 </div>
@@ -159,16 +158,15 @@
         </div>
     </main>
 
+    <!--ICONOS-->
     <section class="icons container">
         <div class="icon-1">
             <div class="icon-img">
                 <img src="public/img/p1.png" alt="">
             </div>
             <div class="icon-txt">
-                <h3>loren ipsum</h3>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae at atque esse ex reiciendis obcaecati? Temporibus provident expedita quos soluta? Recusandae eos voluptatem ea odit nisi facere a vero dolores.
-                </p>
+                <h3>Atención personalizada</h3>
+                <p>Brindamos asesoría en cada compra para ayudarte a elegir la mejor prenda.</p>
             </div>
         </div>  
         
@@ -177,10 +175,8 @@
                 <img src="public/img/p2.png" alt="">
             </div>
             <div class="icon-txt">
-                <h3>loren ipsum</h3>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae at atque esse ex reiciendis obcaecati? Temporibus provident expedita quos soluta? Recusandae eos voluptatem ea odit nisi facere a vero dolores.
-                </p>
+                <h3>Pagos seguros</h3>
+                <p>Todos tus pagos son procesados de manera segura.</p>
             </div>
         </div>   
         
@@ -189,73 +185,66 @@
                 <img src="public/img/p3.png" alt="">
             </div>
             <div class="icon-txt">
-                <h3>loren ipsum</h3>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae at atque esse ex reiciendis obcaecati? Temporibus provident expedita quos soluta? Recusandae eos voluptatem ea odit nisi facere a vero dolores.
-                </p>
+                <h3>Envíos rápidos</h3>
+                <p>Recibí tu pedido en el menor tiempo posible con nuestros envíos express.</p>
             </div>
         </div>
     </section>
 
+    <!--BLOG-->
     <section class="blog container">
         <div class="blog-1">
             <img src="public/img/b1.jpg" alt="">
-            <h3>blog1</h3>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo sunt in, est explicabo quam voluptatum quos, minus eius, temporibus minima laudantium amet eaque? Repellat soluta sunt quas magni voluptatem voluptatum?
-            </p>
+            <h3>Consejos de moda</h3>
+            <p>Descubrí tips y novedades para estar siempre a la moda.</p>
         </div>
         <div class="blog-1">
             <img src="public/img/b2.jpg" alt="">
-            <h3>blog1</h3>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo sunt in, est explicabo quam voluptatum quos, minus eius, temporibus minima laudantium amet eaque? Repellat soluta sunt quas magni voluptatem voluptatum?
-            </p>
+            <h3>Nuestros looks</h3>
+            <p>Inspirate con los outfits que armamos para vos.</p>
         </div>
         <div class="blog-1">
             <img src="public/img/b3.jpg" alt="">
-            <h3>blog1</h3>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo sunt in, est explicabo quam voluptatum quos, minus eius, temporibus minima laudantium amet eaque? Repellat soluta sunt quas magni voluptatem voluptatum?
-            </p>
+            <h3>Tendencias</h3>
+            <p>Enterate de lo último en moda y estilo.</p>
         </div>
     </section>
 
-    <!--FOORTER-->
+    <!--FOOTER-->
     <footer class="footer">
         <div class="footer-content container">
             <div class="link">
                 <h3>Nosotros</h3>
                 <ul>
-                    <li><a href="#">Locales</a></li>
-                    <li><a href="#">Venta mayorista</a></li>
-                    <li><a href="#">Sustentabilidad</a></li>
+                    <li><a href="nosotros.html">Quiénes somos</a></li>
+                    <li><a href="nosotros.html">Locales</a></li>
+                    <li><a href="nosotros.html">Sustentabilidad</a></li>
                 </ul>
             </div>
             <div class="link">
                 <h3>Ayuda</h3>
                 <ul>
-                    <li><a href="#">Contacto</a></li>
-                    <li><a href="#">Forma de pago</a></li>
-                    <li><a href="#">Métodos de envío</a></li>
-                    <li><a href="#">Cambios y devoluciones</a></li>
-                    <li><a href="#">Preguntas frecuentes</a></li>
-                    <li><a href="#">Promociones</a></li>
+                    <li><a href="contactos.html">Contacto</a></li>
+                    <li><a href="formas_pago.html">Formas de pago</a></li>
+                    <li><a href="envio.html">Métodos de envío</a></li>
+                    <li><a href="cambios.html">Cambios y devoluciones</a></li>
+                    <li><a href="faq.html">Preguntas frecuentes</a></li>
+                    <li><a href="promociones.html">Promociones</a></li>
                 </ul>
             </div>
             <div class="link">
                 <h3>Legales</h3>
                 <ul>
-                    <li><a href="#">Políticas de privacidad</a></li>
-                    <li><a href="#">Terminos y condiciones</a></li>
-                    <li><a href="#">x Botón de Arrepentimiento</a></li>
+                    <li><a href="privacidad.html">Políticas de privacidad</a></li>
+                    <li><a href="terminos.html">Términos y condiciones</a></li>
+                    <li><a href="arrepentimiento.html">Botón de Arrepentimiento</a></li>
                 </ul>
             </div>
             <div class="link">
                 <ul>
-                    <img src="public/img/instagram.png" alt="" height="30">
-                    <img src="public/img/facebook.png" alt="" height="30">
-                    <img src="public/img/tik-tok.png" alt="" height="30"> 
+                    <img src="public/img/instagram.png" alt="Instagram" height="30">
+                    <img src="public/img/facebook.png" alt="Facebook" height="30">
+                    <img src="public/img/tik-tok.png" alt="TikTok" height="30"> 
                 </ul>
             </div>
         </div>     
@@ -263,5 +252,4 @@
 
     <script src="public/scrip/scrio.js"></script>
 </body>
-
 </html>

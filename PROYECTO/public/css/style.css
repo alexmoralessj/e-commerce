@@ -436,3 +436,227 @@ th, td {
         text-align: center;
     }
 }
+
+/*nosotros   https://www.equus.com.ar/preguntas-frecuentes */
+
+.sobre-nosotros {
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.sobre-nosotros h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.sobre-nosotros h3 {
+  font-size: 22px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.sobre-nosotros p {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.sobre-nosotros {
+  position: relative;
+  top: -550px;
+}
+.footerHTML {
+    color: aliceblue;
+    text-align: center;
+        
+}
+
+/*preguntas frecuentes */
+.sobre-faq {
+    text-align: justify;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.sobre-faq h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.sobre-faq h3 {
+  font-size: 22px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.sobre-faqs p {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.sobre-faq {
+  position: relative;
+  top: -550px;
+}
+.footerHTML {
+    color: aliceblue;
+    text-align: center;
+        
+}
+
+/*formas de pago */
+.formasDepago {
+    text-align: justify;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+.formasDepago h3 {
+  font-size: 22px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.formasDepago p {
+  font-size: 16px;
+  line-height: 1.6;
+}
+.formasDepago {
+  position: relative;
+  top: -550px;
+}
+.footerHTML {
+    color: rgb(0, 0, 0);
+    text-align: center;     
+}
+
+/*envio */
+.envio {text-align: justify;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+.envio h3 {
+  font-size: 22px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.envio p {
+  font-size: 16px;
+  line-height: 1.6;
+}
+.envio {
+  position: relative;
+  top: -550px;
+}
+.footerHTML {
+    color: rgb(0, 0, 0);
+    text-align: center;     
+}
+
+/*cambios */
+.cambios {
+    text-align: justify;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+.cambios h3 {
+  font-size: 22px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.cambios p {
+  font-size: 16px;
+  line-height: 1.6;
+}
+.cambios {
+  position: relative;
+  top: -550px;
+}
+.footerHTML {
+    color: rgb(0, 0, 0);
+    text-align: center;     
+}
+.cambios ul {
+  list-style-type: disc;
+  list-style-position: outside;
+  margin: 0 0 1rem 1.25rem;
+  padding: 0;
+}
+.cambios ol {
+  list-style-type: decimal;
+  list-style-position: outside;
+  margin: 0 0 1rem 1.5rem;
+  padding: 0;
+}
+.cambios li {
+  margin-bottom: 0.4rem;
+}
+
+/*promociones */
+
+.promociones {text-align: justify;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+.promociones h3 {
+  font-size: 22px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.promociones p {
+  font-size: 16px;
+  line-height: 1.6;
+}
+.promociones {
+  position: relative;
+  top: -550px;
+}
+.footerHTML {
+    color: rgb(0, 0, 0);
+    text-align: center;     
+}
+
+
+/*privacidad */
+.privacidad {text-align: justify;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.privacidad h3 {
+  font-size: 22px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.privacidad p {
+  font-size: 16px;
+  line-height: 1.6;
+}
+.privacidad {
+  position: relative;
+  top: -550px;
+}
+.footerHTML {
+    color: rgb(0, 0, 0);
+    text-align: center;     
+}
+
+
+
+
+
+/*formas de pago */
+
